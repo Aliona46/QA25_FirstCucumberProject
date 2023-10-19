@@ -57,7 +57,7 @@ public class LoginPage extends BasePage{
         return this;
     }
 
-    @FindBy(className = "positive-button ng-star-inserted")
+    @FindBy(css = ".positive-button.ng-star-inserted")
     WebElement okBtn;
     public LoginPage clickOkBtn() {
         click(okBtn);

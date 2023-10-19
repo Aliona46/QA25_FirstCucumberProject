@@ -45,8 +45,5 @@ public class LoginSteps {
         new LoginPage(driver).getError();
     }
 
-   /* @And("User clicks Ok button")
-    public void click_Ok_button() {
-        new LoginPage(driver).clickOkBtn();
-    }*/
+
 }

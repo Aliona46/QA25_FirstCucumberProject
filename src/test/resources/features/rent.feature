@@ -4,6 +4,9 @@ Feature: rentCar
   Scenario: Input data for rent
     Given User launches ChromeBrowser
     When User opens ilcarro Home Page
+    And User clicks on Log in link
+    And User enters valid data
+    And User clicks on Yalla button
     And User clicks on Let the car work link
     And User enters Location
     And User enters Manufacture, Model, Year

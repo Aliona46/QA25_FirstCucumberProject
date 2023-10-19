@@ -96,10 +96,5 @@ public class RentPage extends BasePage {
         return this;
     }
 
-  /* @FindBy(tagName = "h1")
-   WebElement errorMessage;
-    public RentPage isErrorMessageDisplayed() {
-        assert isElementDisplayed(errorMessage);
-        return this;
-    }*/
+
 }
